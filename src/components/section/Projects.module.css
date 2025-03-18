@@ -1,0 +1,30 @@
+.Projects{
+   margin: 4% 10% 0 10%;
+   
+}
+
+.Projects h1{    
+    font-size: 50px;
+    text-align: left;
+}
+
+.cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: stretch; /* Faz todos os cards terem a mesma altura */
+}
+
+
+
+@media (max-width: 768px) {
+    .Projects h1{    
+        font-size: 30px;
+    }
+    .cardSection .card {
+        flex: 1 1 100%; /* Cards ocupam 100% da largura em telas pequenas */
+        max-width: 100%;
+    }
+    
+}
